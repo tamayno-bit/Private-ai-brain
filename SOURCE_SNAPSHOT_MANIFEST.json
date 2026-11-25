@@ -2,7 +2,7 @@
   "snapshot_utc": "2026-11-25",
   "origin": "/workspace/services/private-ai-brain",
   "source_only": true,
-  "source_files": 82,
+  "source_files": 83,
   "excludes": [
     "runtime-state",
     "model-weights",
@@ -12,18 +12,6 @@
     "caches"
   ],
   "files": [
-    {
-      "path": "PACKAGE_MANIFEST.json",
-      "sha256": "35e5ebcd5c2cd9ac254072635c53f75c3605be359498ed5d39894b261bc71c41"
-    },
-    {
-      "path": "QUICKSTART_AR.md",
-      "sha256": "927e5c36e1262c40cff28683afe3abfeb40c9ffd6439dab311bd2b91e6255841"
-    },
-    {
-      "path": "README.md",
-      "sha256": "daf77c805f5ea50cc9f087b9655a85a2af62706c7fb61aca51c8b784ef0686b8"
-    },
     {
       "path": "api/brain-control/API_CONTRACT.md",
       "sha256": "84ba7c0fbc27c73997489b1735f498b1418b3d58ffa90c858347db577049b093"
@@ -113,6 +101,10 @@
       "sha256": "7b1790f662a18331a7cb389b2e485deb443d00fb660abca5fd618bb30a99198a"
     },
     {
+      "path": "brain/tokenizer.py",
+      "sha256": "7ae139a1264dbde152854d72f3deedcf63fcb11ed079e00ce9a60bab9a3b89fb"
+    },
+    {
       "path": "brain/train.py",
       "sha256": "6db68bb7ff2c325d78c65abafa47f48e2cb163c20c544d32aa6b8650cfde3831"
     },
@@ -149,16 +141,16 @@
       "sha256": "62998389673725a310ded08a5649047c76eedd29e78071a275f5abf67bc27b73"
     },
     {
+      "path": "integration/brain_control_gateway.py",
+      "sha256": "a53b752ec294b2a7e1e3ba30327a2e47910a069015300c809e76c603e6a62cab"
+    },
+    {
       "path": "integration/CODEX_INTEGRATION_PROMPT.md",
       "sha256": "ac224a19ce57341fbdd7bf2bebbb76e71cd37e9203fdc89a50414aace156ae16"
     },
     {
       "path": "integration/RUNPOD_SIDECAR.md",
       "sha256": "4e6cfa233a46f8d3cd0d30663cdf6a3d693ff3807d6914b3f0fc5fb096e3c61c"
-    },
-    {
-      "path": "integration/brain_control_gateway.py",
-      "sha256": "a53b752ec294b2a7e1e3ba30327a2e47910a069015300c809e76c603e6a62cab"
     },
     {
       "path": "integration/start_android_gateway.sh",
@@ -193,24 +185,12 @@
       "sha256": "18e811cb3b34e1315509f86156ca9bc402a532d30d759b2e2e7c3dbb656ac14f"
     },
     {
-      "path": "learning/opportunistic/AUTONOMOUS_LEARNING_ACTIVATION_2026-11-22.md",
-      "sha256": "2c22630f7d4edacfe2cb989c2d8cbba0a615210aa657ab1c0d497dc93eaf5e6e"
-    },
-    {
-      "path": "learning/opportunistic/GPU_SUPERVISOR_STAGE_REPORT_2026-11-22.md",
-      "sha256": "bd43e823635203f1bb01d1b255b545386733fe03fa8bfeba185e5aaca70f7c30"
-    },
-    {
-      "path": "learning/opportunistic/INTEGRATION_STATUS_2026-11-22.md",
-      "sha256": "912eb9748e5c93a0e946e60b134b3c622ca993959d13496d96d26ba75aed6636"
-    },
-    {
-      "path": "learning/opportunistic/LIVE_GPU_SHARING_REPORT_2026-11-22.md",
-      "sha256": "3b1c4c02677a0a690c22cf34433ce8ba1c49a607d1a8a8e305981349057d0aba"
-    },
-    {
       "path": "learning/opportunistic/autolearn.py",
       "sha256": "1b832cc5fe8626bd4fbefab057301c2d5f4d3f1ce48593166aea2d95fe03db8a"
+    },
+    {
+      "path": "learning/opportunistic/AUTONOMOUS_LEARNING_ACTIVATION_2026-11-22.md",
+      "sha256": "2c22630f7d4edacfe2cb989c2d8cbba0a615210aa657ab1c0d497dc93eaf5e6e"
     },
     {
       "path": "learning/opportunistic/control.py",
@@ -229,12 +209,24 @@
       "sha256": "83fc31c8ff68adfee8eb350780d13b7f44d9a751ab66df6ab8c6fc8d646b98ae"
     },
     {
+      "path": "learning/opportunistic/GPU_SUPERVISOR_STAGE_REPORT_2026-11-22.md",
+      "sha256": "bd43e823635203f1bb01d1b255b545386733fe03fa8bfeba185e5aaca70f7c30"
+    },
+    {
       "path": "learning/opportunistic/gpu_supervisor.py",
       "sha256": "cca9347cdee559d32e4e614b6362bbd97bb39811e019ad43a1de9ecd8a634537"
     },
     {
       "path": "learning/opportunistic/independent_eval.py",
       "sha256": "d16d455d4a914ec61b2cbc9e50e036eabe03e3341d65bd0a393cfffa77fe0efc"
+    },
+    {
+      "path": "learning/opportunistic/INTEGRATION_STATUS_2026-11-22.md",
+      "sha256": "912eb9748e5c93a0e946e60b134b3c622ca993959d13496d96d26ba75aed6636"
+    },
+    {
+      "path": "learning/opportunistic/LIVE_GPU_SHARING_REPORT_2026-11-22.md",
+      "sha256": "3b1c4c02677a0a690c22cf34433ce8ba1c49a607d1a8a8e305981349057d0aba"
     },
     {
       "path": "learning/opportunistic/md_functional_eval.py",
@@ -285,8 +277,20 @@
       "sha256": "7de4a89920808d7ddfa4bfcf164813f802ae330630a3efdfc540deb37bbd8113"
     },
     {
+      "path": "PACKAGE_MANIFEST.json",
+      "sha256": "35e5ebcd5c2cd9ac254072635c53f75c3605be359498ed5d39894b261bc71c41"
+    },
+    {
       "path": "pyproject.toml",
       "sha256": "0536cb39fd374da051b43f8506d26467c9e8b6896c16d392118189b0457c2619"
+    },
+    {
+      "path": "QUICKSTART_AR.md",
+      "sha256": "927e5c36e1262c40cff28683afe3abfeb40c9ffd6439dab311bd2b91e6255841"
+    },
+    {
+      "path": "README.md",
+      "sha256": "daf77c805f5ea50cc9f087b9655a85a2af62706c7fb61aca51c8b784ef0686b8"
     },
     {
       "path": "scripts/README.md",
