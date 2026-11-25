@@ -1,0 +1,1 @@
+{"vocab_size":260,"context":2048,"dim":1024,"layers":24,"heads":16,"kv_heads":4,"dropout":0.0,"rope_base":10000.0}

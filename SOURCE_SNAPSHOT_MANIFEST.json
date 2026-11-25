@@ -1,0 +1,344 @@
+{
+  "snapshot_utc": "2026-11-25",
+  "origin": "/workspace/services/private-ai-brain",
+  "source_only": true,
+  "source_files": 82,
+  "excludes": [
+    "runtime-state",
+    "model-weights",
+    "user-data",
+    "secrets",
+    "logs",
+    "caches"
+  ],
+  "files": [
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "sha256": "35e5ebcd5c2cd9ac254072635c53f75c3605be359498ed5d39894b261bc71c41"
+    },
+    {
+      "path": "QUICKSTART_AR.md",
+      "sha256": "927e5c36e1262c40cff28683afe3abfeb40c9ffd6439dab311bd2b91e6255841"
+    },
+    {
+      "path": "README.md",
+      "sha256": "daf77c805f5ea50cc9f087b9655a85a2af62706c7fb61aca51c8b784ef0686b8"
+    },
+    {
+      "path": "api/brain-control/API_CONTRACT.md",
+      "sha256": "84ba7c0fbc27c73997489b1735f498b1418b3d58ffa90c858347db577049b093"
+    },
+    {
+      "path": "api/brain-control/LEARNING_RESEARCH_API_V01_2026-11-22.md",
+      "sha256": "499b3e9f881c1b7b49dd4e27de7a45cad43c4d96cfc54bf2c852c31d9635289f"
+    },
+    {
+      "path": "api/brain-control/MD_PILOT_V03_STATUS_2026-11-23.md",
+      "sha256": "5333d53b2b59c444abd7be2747546c723a24dcaced818d909714777ad0292c96"
+    },
+    {
+      "path": "api/brain-control/MD_STEPWISE_TONGYI_V02_2026-11-23.md",
+      "sha256": "2ada165c1f6e4f0a2e8bcd062ddbd9c66bdaa58cd40a0b635974f56c8048109c"
+    },
+    {
+      "path": "api/brain-control/MD_UPLOAD_V01_2026-11-22.md",
+      "sha256": "dc014333fa30679b7c8818a214111f943c8cfcb463b31cdb3c196b0aa96927e5"
+    },
+    {
+      "path": "api/brain-control/README.md",
+      "sha256": "6490d03ca55cb68c847a7cca4d4eeafebc56e3f9535584b0f5f461e8472cbc92"
+    },
+    {
+      "path": "brain/__init__.py",
+      "sha256": "b00b6341567c5cd0dab57fe80f9db65d9a8b45caf340d0a9543d9edeab091f97"
+    },
+    {
+      "path": "brain/api.py",
+      "sha256": "b8c7a7b68acc2b6795878242af73e029234efedcd531a0572222d2668fda4abd"
+    },
+    {
+      "path": "brain/checkpoint.py",
+      "sha256": "a6c636c9ec632af34b8cc366e2e62bc9799d4fe9b0070c3f2cde3c053a4a7173"
+    },
+    {
+      "path": "brain/dataset.py",
+      "sha256": "96925e1dd1812fbfd766ab21ccc7a7af10ae8490f84111e5afc698b55af167ef"
+    },
+    {
+      "path": "brain/evaluate.py",
+      "sha256": "6c58d234898d12aa9910a4233c8c82d1e91072baa5119b3bd4a7530b88a0561f"
+    },
+    {
+      "path": "brain/infer.py",
+      "sha256": "c4c313b0680aba6769f9b73b416905357eeec9f815ead2b3065fd02f7f631853"
+    },
+    {
+      "path": "brain/learning_plans.py",
+      "sha256": "d92f880266f2b3a58d4cd9000393c49485ef7cc7b9ee351371a5b45de4500128"
+    },
+    {
+      "path": "brain/md_dataset.py",
+      "sha256": "ce94af8c3eb42108f02a87561a43153670971d66e86e88b894fb61b83f4e93d5"
+    },
+    {
+      "path": "brain/md_model_review.py",
+      "sha256": "cc04c233799a997d03a92f8e2cdcc0f6655a7515f0edcce0b312310f10673e9c"
+    },
+    {
+      "path": "brain/md_plans.py",
+      "sha256": "1d4146b8aad03c8f6734f52840b0a11b7515e374af36604842cfa9ddaba832dd"
+    },
+    {
+      "path": "brain/md_report.py",
+      "sha256": "4ab476e65400902d6697a5a4e49cc7feb3f1d32ba644a17e1d081531580b94c8"
+    },
+    {
+      "path": "brain/md_research_agent.py",
+      "sha256": "220be8dc925c699dceac40534269a012620f5ec883c898bfcfb5be15c4fdb4c4"
+    },
+    {
+      "path": "brain/md_training.py",
+      "sha256": "a9a8e556dabd09fca284c37085521b031aecde0055707cef59ae0748e7a6c24b"
+    },
+    {
+      "path": "brain/memory.py",
+      "sha256": "614301de36fdbd6591471e1c03babe47e60a9993aafae096efba9050bd932521"
+    },
+    {
+      "path": "brain/model.py",
+      "sha256": "b82438f148b38f57b15333a93d64a1e5f1ba6f483a9ac2cfed604ca9b4c9ae9f"
+    },
+    {
+      "path": "brain/research.py",
+      "sha256": "7b1790f662a18331a7cb389b2e485deb443d00fb660abca5fd618bb30a99198a"
+    },
+    {
+      "path": "brain/train.py",
+      "sha256": "6db68bb7ff2c325d78c65abafa47f48e2cb163c20c544d32aa6b8650cfde3831"
+    },
+    {
+      "path": "config/dataset_example.jsonl",
+      "sha256": "6d7b31c63300498d4895bdaa846847fe0d5545384306533ad36aa92d5969f532"
+    },
+    {
+      "path": "config/model_growth_illustrative.json",
+      "sha256": "08e8785bdd4d6f7cb15cc7170fecc45a29f13c81c36f4c6f7161b4b348fe7236"
+    },
+    {
+      "path": "config/model_tiny.json",
+      "sha256": "265b83bebfb82fdc3fff6aa3626fe27bd1861c5eb9452daa31880db9425b20a5"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "0fd55a94a9a517e55cdd9777005196ddb7994005fb07da732591441c81df3cf0"
+    },
+    {
+      "path": "docs/OWNERSHIP_PROVENANCE.md",
+      "sha256": "f07f04d0175c95cb947c65dd6fc41c49306968495b6aa27325288ae74b55fea8"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256": "bf13372ee6623c28e6c2ecadabdb8c54ac9c60dec693aceab1c5d96bfae2e365"
+    },
+    {
+      "path": "evaluation/benchmarks/README.md",
+      "sha256": "dc297473bb6634013518455f853c0da44cb7518f5249e699417eb825ee8e52b8"
+    },
+    {
+      "path": "evaluation/model-comparison/README.md",
+      "sha256": "62998389673725a310ded08a5649047c76eedd29e78071a275f5abf67bc27b73"
+    },
+    {
+      "path": "integration/CODEX_INTEGRATION_PROMPT.md",
+      "sha256": "ac224a19ce57341fbdd7bf2bebbb76e71cd37e9203fdc89a50414aace156ae16"
+    },
+    {
+      "path": "integration/RUNPOD_SIDECAR.md",
+      "sha256": "4e6cfa233a46f8d3cd0d30663cdf6a3d693ff3807d6914b3f0fc5fb096e3c61c"
+    },
+    {
+      "path": "integration/brain_control_gateway.py",
+      "sha256": "a53b752ec294b2a7e1e3ba30327a2e47910a069015300c809e76c603e6a62cab"
+    },
+    {
+      "path": "integration/start_android_gateway.sh",
+      "sha256": "c42328d0fb4563c77d30a475f7b441f22abdbe9f3e813f246c1032ea8a873400"
+    },
+    {
+      "path": "integration/start_sidecar.sh",
+      "sha256": "c196b97adb13bd5d955553dc9b5471bc6bf8a4d6952edb2c3b46abfc94347648"
+    },
+    {
+      "path": "integration/stop_sidecar.sh",
+      "sha256": "23418f0f204ba7ffa02c62f92eb815e47668655ac5bceb8ab7f5bebf84ca3200"
+    },
+    {
+      "path": "integration/verify_sidecar.sh",
+      "sha256": "6ebde8be6af3ac9f67b2d49741f791397c26f6ed4a12669eadcaeee6400e77f0"
+    },
+    {
+      "path": "learning/continuous-learning/README.md",
+      "sha256": "0a4d4da8f7bb4fa60833e5ab504856d875122bc0ae8153391f49d8f67896515f"
+    },
+    {
+      "path": "learning/curriculum/README.md",
+      "sha256": "7be2511348d4cc4c89ab56e97360daa8b2f3f662379fc89032ec0291dd4ca9ce"
+    },
+    {
+      "path": "learning/data-collector/README.md",
+      "sha256": "5b26420936dc45639b8468088e33284bb6ec0213dc2e2cfc8e986a2621f2a91e"
+    },
+    {
+      "path": "learning/dataset-validator/README.md",
+      "sha256": "18e811cb3b34e1315509f86156ca9bc402a532d30d759b2e2e7c3dbb656ac14f"
+    },
+    {
+      "path": "learning/opportunistic/AUTONOMOUS_LEARNING_ACTIVATION_2026-11-22.md",
+      "sha256": "2c22630f7d4edacfe2cb989c2d8cbba0a615210aa657ab1c0d497dc93eaf5e6e"
+    },
+    {
+      "path": "learning/opportunistic/GPU_SUPERVISOR_STAGE_REPORT_2026-11-22.md",
+      "sha256": "bd43e823635203f1bb01d1b255b545386733fe03fa8bfeba185e5aaca70f7c30"
+    },
+    {
+      "path": "learning/opportunistic/INTEGRATION_STATUS_2026-11-22.md",
+      "sha256": "912eb9748e5c93a0e946e60b134b3c622ca993959d13496d96d26ba75aed6636"
+    },
+    {
+      "path": "learning/opportunistic/LIVE_GPU_SHARING_REPORT_2026-11-22.md",
+      "sha256": "3b1c4c02677a0a690c22cf34433ce8ba1c49a607d1a8a8e305981349057d0aba"
+    },
+    {
+      "path": "learning/opportunistic/autolearn.py",
+      "sha256": "1b832cc5fe8626bd4fbefab057301c2d5f4d3f1ce48593166aea2d95fe03db8a"
+    },
+    {
+      "path": "learning/opportunistic/control.py",
+      "sha256": "226fcb9b4a6251e795cff35981ba992726663d2f004f70a4f6470e1170b7da76"
+    },
+    {
+      "path": "learning/opportunistic/disjoint_holdout.py",
+      "sha256": "3b0650d12eafe4343f8df4b929ba15e77eb5536693ef7639b4951105d794a6ed"
+    },
+    {
+      "path": "learning/opportunistic/gpu_admission.py",
+      "sha256": "25496f5240ab40240d7c802481c00b1e35838b9d74e08f9babfe9da3eb924975"
+    },
+    {
+      "path": "learning/opportunistic/gpu_observer.py",
+      "sha256": "83fc31c8ff68adfee8eb350780d13b7f44d9a751ab66df6ab8c6fc8d646b98ae"
+    },
+    {
+      "path": "learning/opportunistic/gpu_supervisor.py",
+      "sha256": "cca9347cdee559d32e4e614b6362bbd97bb39811e019ad43a1de9ecd8a634537"
+    },
+    {
+      "path": "learning/opportunistic/independent_eval.py",
+      "sha256": "d16d455d4a914ec61b2cbc9e50e036eabe03e3341d65bd0a393cfffa77fe0efc"
+    },
+    {
+      "path": "learning/opportunistic/md_functional_eval.py",
+      "sha256": "f152fdc387659c953e46fb476a7e258af8ac026a6b34f2e95189f75fc478557f"
+    },
+    {
+      "path": "learning/opportunistic/md_gpu_worker.py",
+      "sha256": "48558dd96c13017a46e43c8f855c07e1bb0eabc2b8a28358b650d6e1952aa062"
+    },
+    {
+      "path": "learning/opportunistic/md_local_tongyi_worker.py",
+      "sha256": "39000a21b2e6518bc413a39d409f3641d9da68958e97b1c640619ead1d184b62"
+    },
+    {
+      "path": "learning/opportunistic/primary_guard.py",
+      "sha256": "f52ae2841774fe19076571c337ebd1ff77d2f2ec7fcd013a16cdf0a834873f89"
+    },
+    {
+      "path": "learning/opportunistic/synthetic_curriculum.py",
+      "sha256": "248b56ad7f848636a6502b2cc2057eb7069642776589a5ce22015642247354ab"
+    },
+    {
+      "path": "learning/opportunistic/teacher_queue.py",
+      "sha256": "6f0d77be462bd7f1b47ee5afb9300dbd6324088733af980ce54f2d83ea2f194f"
+    },
+    {
+      "path": "learning/pilot_md_execute.py",
+      "sha256": "9042107d10da37e9ae00e78896f3a0e2100ee0103789f2106ccae2768198c18a"
+    },
+    {
+      "path": "memory/retrieval/README.md",
+      "sha256": "2291a37d113b83550a028fead60e1f0c0fcb34d84e293c80f4965317ad5e85b5"
+    },
+    {
+      "path": "memory/storage/README.md",
+      "sha256": "363353a136bdced116da43435cd2ea975cb2b89960fa692e7ed8d0c9b4053f80"
+    },
+    {
+      "path": "model/architecture/README.md",
+      "sha256": "a7a78523d5a9ccf79c71157d652508b73c7a64c4b46ace12fd38e199241a9d3f"
+    },
+    {
+      "path": "model/inference/README.md",
+      "sha256": "bbea0751fe539e52e0c6e5b0f9aa5e6a42a1bc805594822288d9b5bc39b96698"
+    },
+    {
+      "path": "model/weights-manager/README.md",
+      "sha256": "7de4a89920808d7ddfa4bfcf164813f802ae330630a3efdfc540deb37bbd8113"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "0536cb39fd374da051b43f8506d26467c9e8b6896c16d392118189b0457c2619"
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "105ecce1785a3a98340feabe91a451a9e08ee8842cad2947a72d3e7a12230791"
+    },
+    {
+      "path": "tests/test_autolearn.py",
+      "sha256": "63b2608dbb724dfbe9d26f39361be81111e7477861e1d6b4cb9820aa6e10eaf8"
+    },
+    {
+      "path": "tests/test_brain.py",
+      "sha256": "9949a38b2582f381084063291efdc2102b7ab94e55691207e530b13cc71fecdd"
+    },
+    {
+      "path": "tests/test_gpu_opportunistic.py",
+      "sha256": "e0a22f61741fa3e3389247114dfadf0eee36e9033fa91eaf693b3aaacc903255"
+    },
+    {
+      "path": "tests/test_learning_research.py",
+      "sha256": "c02f63bf677769be911b7247b56ed8d87a3c1e8ce2115fae4e926d8d246c831a"
+    },
+    {
+      "path": "tests/test_md_local_model_review.py",
+      "sha256": "46008ae83ee837f97829759b71d80ef7e5f958022f199665009c233c1faecb2a"
+    },
+    {
+      "path": "tests/test_md_orchestration.py",
+      "sha256": "78a75238f0b8999bb1f2befc3e4a87b1a8abe3be07c09e03eebd7a7a52dcf703"
+    },
+    {
+      "path": "tests/test_md_plans.py",
+      "sha256": "d443e838ab8c21477fc2f13b095469fddcddab57d293e0f71d1c39621792ae16"
+    },
+    {
+      "path": "tests/test_md_stepwise_parser.py",
+      "sha256": "5e19bf8dfa171b03de361393a25a6af369f5c01b551448b32041e1b67b088505"
+    },
+    {
+      "path": "tests/test_md_training_pipeline.py",
+      "sha256": "42d9b1f1a19613fdcff7e477414af5c2adf22ff1564effd0ade9ae6d3e3fc564"
+    },
+    {
+      "path": "training/checkpoint-manager/README.md",
+      "sha256": "86b5f20db87c1e802e55968e70756a907ca0024649f1c0da48a153b2930755b1"
+    },
+    {
+      "path": "training/cpu-worker/README.md",
+      "sha256": "bee8645b12b3833880e5ae59a5b9b98a3e7506f632fbac62b8061d94c29a7258"
+    },
+    {
+      "path": "training/gpu-worker/README.md",
+      "sha256": "d3a063cb6ca7eae743ed2ba6e1f53bc60231721d9f0fc2a85220fed33f910348"
+    }
+  ]
+}
